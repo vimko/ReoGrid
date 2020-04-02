@@ -174,6 +174,9 @@ namespace unvell.ReoGrid
 					this.currentWorksheet.Load(file.FullName);
 				}
 			}));
+
+			// 扩展
+			this._InitDataSourceProperty();
 		}
 
 		#region SheetTab & Scroll Bars Visibility
